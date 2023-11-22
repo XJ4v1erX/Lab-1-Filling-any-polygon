@@ -1,9 +1,9 @@
 # Lab-1-Filling-any-polygon
 Este es el laboratorio 1, en el cual se debe crear un algoritmo que sea capaz de rellenar polígonos de más de 4 puntos sin el uso de librerías externas.
 
-## Captura de Pantalla
+## OUT.bmp
 
-![Out_bpm](out.bmp)
+![Out.bpm](out.bmp)
 ## Polígonos
 
 ### Polígono 1
