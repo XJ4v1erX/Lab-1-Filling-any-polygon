@@ -85,5 +85,20 @@ void drawAndFillPolygon4(Framebuffer& framebuffer) {
     framebuffer.drawPolygon(vertices4);
 
 }
+void drawAndFillPolygon5(Framebuffer& framebuffer) {
+    std::vector<Vertex> vertices5{
+            {682, 175},
+            {708, 120},
+            {735, 148},
+            {739, 170}
+    };
+
+    framebuffer.currentColor = color6;
+    framebuffer.fillPolygon(vertices5);
+    framebuffer.currentColor = color2;
+    framebuffer.drawPolygon(vertices5);
+
+}
+
 
 //LAB1_FILLING_ANY_POLYGON_POLYGONS_H

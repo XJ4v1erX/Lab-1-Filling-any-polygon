@@ -11,6 +11,7 @@ int main() {
     drawAndFillPolygon2(framebuffer);
     drawAndFillPolygon3(framebuffer);
     drawAndFillPolygon4(framebuffer);
+    drawAndFillPolygon5(framebuffer);
 
     framebuffer.renderBuffer();
 
