@@ -6,7 +6,6 @@
 #include <vector>
 #include "Vertex.h"
 #include "Color.h"
-
 #pragma once
 
 
@@ -165,7 +164,7 @@ public:
         }
 
         // Write BMP file
-        std::ofstream bmpFile("out.bmp", std::ios::binary);
+        std::ofstream bmpFile("../out.bmp", std::ios::binary);
         if (bmpFile.is_open()) {
             bmpFile.write(reinterpret_cast<char*>(&bmpData[0]), totalSize);
             bmpFile.close();
