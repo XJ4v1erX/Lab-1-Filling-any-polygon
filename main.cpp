@@ -8,6 +8,7 @@ int main() {
     framebuffer.clear();
 
     drawAndFillPolygon1(framebuffer);
+    drawAndFillPolygon2(framebuffer);
 
     framebuffer.renderBuffer();
 
