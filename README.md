@@ -3,7 +3,7 @@ Este es el laboratorio 1, en el cual se debe crear un algoritmo que sea capaz de
 
 ## Captura de Pantalla
 
-![Out_bpm](images/ejemplo.png)
+![Out_bpm](iout.bmp)
 ## Polígonos
 
 ### Polígono 1
