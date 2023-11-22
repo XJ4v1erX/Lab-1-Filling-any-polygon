@@ -2,7 +2,6 @@
 #include "Framebuffer.h"
 #include  "Polygons.h"
 
-
 int main() {
     Framebuffer framebuffer(800, 600);
     framebuffer.clear();

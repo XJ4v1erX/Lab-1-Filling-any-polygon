@@ -100,5 +100,4 @@ void drawAndFillPolygon5(Framebuffer& framebuffer) {
 
 }
 
-
 //LAB1_FILLING_ANY_POLYGON_POLYGONS_H
