@@ -10,6 +10,7 @@ int main() {
     drawAndFillPolygon1(framebuffer);
     drawAndFillPolygon2(framebuffer);
     drawAndFillPolygon3(framebuffer);
+    drawAndFillPolygon4(framebuffer);
 
     framebuffer.renderBuffer();
 
