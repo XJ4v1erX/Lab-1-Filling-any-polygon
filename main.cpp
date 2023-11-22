@@ -1,6 +1,14 @@
-#include <iostream>
+#include <cmath>
+#include "Framebuffer.h"
+#include  "Poligons.h"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Framebuffer framebuffer(800, 600);
+    framebuffer.clear();
+
+
+    framebuffer.renderBuffer();
+
     return 0;
 }
